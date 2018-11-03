@@ -1,15 +1,25 @@
 body {
-  background-image: url(images/unionstation.jpg)
+  background-image: url(images/unionstation.jpg);
+  background-image: repeat;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #heading {
-  font-family: Times;
-  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 #subHeading {
-  font-family: Times;
-  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+
+}
+
+#currentTime {
+  color: black;
 }
 
 .panel-title {

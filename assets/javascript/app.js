@@ -48,7 +48,7 @@ $("#submit").on("click", function(event) {
     $("#first-train").val().trim() === "" ||
     $("#frequency").val().trim() === "") {
 
-    alert("Please fill in all details to add new train");
+    alert("Please fill in details to add new train");
 
   } else {
 
