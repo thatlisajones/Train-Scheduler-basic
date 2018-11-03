@@ -29,10 +29,10 @@ $(".form-field").on("keyup", function() {
   var timetemp = $("#first-train").val().trim();
   var freqtemp = $("#frequency").val().trim();
 
-  // sessionStorage.setItem("train", traintemp);
-  // sessionStorage.setItem("city", citytemp);
-  // sessionStorage.setItem("time", timetemp);
-  // sessionStorage.setItem("freq", freqtemp);
+  sessionStorage.setItem("train", traintemp);
+  sessionStorage.setItem("city", citytemp);
+  sessionStorage.setItem("time", timetemp);
+  sessionStorage.setItem("freq", freqtemp);
 });
 
 $("#train-name").val(sessionStorage.getItem("train"));
