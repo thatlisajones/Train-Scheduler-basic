@@ -1,6 +1,6 @@
 body {
-  background-image: url(images/unionstation.jpg);
-  background-image: repeat;
+  background-image: url(images/Westernskyline_01.JPG);
+  background-image: no-repeat;
 }
 
 .jumbotron {
